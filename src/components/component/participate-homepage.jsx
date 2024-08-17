@@ -76,8 +76,8 @@ export default function ParticipateHomepage() {
                   </DropdownMenuTrigger>
                   <DropdownMenuContent align="end">
                     <DropdownMenuItem>
-                      <Link href="#" prefetch={false}>
-                        About
+                      <Link href="/participate/resources" prefetch={false}>
+                        more information on upcoming events
                       </Link>
                     </DropdownMenuItem>
                     <DropdownMenuItem>
