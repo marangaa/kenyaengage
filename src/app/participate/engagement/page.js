@@ -1,5 +1,5 @@
 import {Engage} from '@/components/component/engage';
 
-export default function EventsPage() {
+export default function EngagePage() {
     return <Engage />;
 }

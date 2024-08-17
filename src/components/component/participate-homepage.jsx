@@ -81,8 +81,8 @@ export default function ParticipateHomepage() {
                       </Link>
                     </DropdownMenuItem>
                     <DropdownMenuItem>
-                      <Link href="#" prefetch={false}>
-                        Contact
+                      <Link href="/participate/engagement" prefetch={false}>
+                        Engage
                       </Link>
                     </DropdownMenuItem>
                     <DropdownMenuItem>
