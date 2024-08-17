@@ -86,9 +86,14 @@ export default function ParticipateHomepage() {
                       </Link>
                     </DropdownMenuItem>
                     <DropdownMenuItem>
-                      <Link href="#" prefetch={false}>
-                        Privacy
+                      <Link href="/participate/inclusivity" prefetch={false}>
+                        Inclusivity
                       </Link>
+                    </DropdownMenuItem>
+                    <DropdownMenuItem>
+                        <Link href="/participate/transparency" prefetch={false}>
+                            Transparency
+                        </Link>
                     </DropdownMenuItem>
                   </DropdownMenuContent>
                 </DropdownMenu>

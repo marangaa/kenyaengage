@@ -43,16 +43,16 @@ export function Landing() {
             Participate
           </Link>
           <Link
-            href="#"
+            href="/feedback"
             className="text-sm font-medium hover:underline underline-offset-4"
             prefetch={false}>
-            About
+            Feedback
           </Link>
           <Link
-            href="#"
+            href="/analysis"
             className="text-sm font-medium hover:underline underline-offset-4"
             prefetch={false}>
-            Contact
+            Analysis
           </Link>
           <Button
             variant="outline"
