@@ -20,6 +20,7 @@ To read more about using these font, please visit the Next.js documentation:
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
+import Image from "next/image";
 
 export function Landing() {
   return (
@@ -121,7 +122,7 @@ export function Landing() {
                 </div>
               </div>
               <div className="flex flex-col justify-center">
-                <img
+                <Image
                   src="/placeholder.svg"
                   width="500"
                   height="500"
@@ -155,8 +156,8 @@ export function Landing() {
                     </div>
                   </div>
                   <p className="mt-4 text-muted-foreground">
-                    "This platform has been a game-changer for me. I now have a\n much better understanding of my civic
-                    rights and how to get\n involved in my community." 💪
+                    &quot;This platform has been a game-changer for me. I now have a\n much better understanding of my civic
+                    rights and how to get\n involved in my community.&quot; 💪
                   </p>
                 </Card>
                 <Card className="p-4 bg-muted rounded-lg animate-bounce">
@@ -171,8 +172,8 @@ export function Landing() {
                     </div>
                   </div>
                   <p className="mt-4 text-muted-foreground">
-                    "I've learned so much about the political process and how\n to make my voice heard. This platform
-                    has been invaluable\n for me." 🗳️
+                    learned so much about the political process and how\n to make my voice heard. This platform
+                    has been invaluable\n for me 🗳️
                   </p>
                 </Card>
                 <Card className="p-4 bg-muted rounded-lg animate-bounce">
@@ -187,8 +188,8 @@ export function Landing() {
                     </div>
                   </div>
                   <p className="mt-4 text-muted-foreground">
-                    "This platform has helped me stay informed on important\n civic events and issues. I feel much more
-                    empowered to\n participate in my community." 🗣️
+                    &quot;This platform has helped me stay informed on important\n civic events and issues. I feel much more
+                    empowered to\n participate in my community&quot; 🗣️
                   </p>
                 </Card>
               </div>

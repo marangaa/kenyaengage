@@ -54,7 +54,67 @@ export default function Education() {
                 <Accordion type="single" collapsible>
                   <AccordionItem value="bills">
                     <AccordionTrigger className="text-xl font-medium">Bills</AccordionTrigger>
-                    <AccordionContent>
+                      <AccordionItem value="healthcare-bill">
+                          <AccordionTrigger className="text-xl font-medium">The Universal Healthcare Bill</AccordionTrigger>
+                          <AccordionContent>
+                              <Card>
+                                  <CardHeader>
+                                      <CardTitle>The Universal Healthcare Bill</CardTitle>
+                                      <CardDescription>
+                                          This bill aims to provide universal healthcare coverage to all citizens, ensuring access to essential medical services.
+                                      </CardDescription>
+                                  </CardHeader>
+                                  <CardContent>
+                                      <div className="grid gap-2">
+                                          <div className="flex items-center justify-between">
+                                              <span className="font-medium">Status:</span>
+                                              <Badge variant="secondary">Pending</Badge>
+                                          </div>
+                                          <div className="flex items-center justify-between">
+                                              <span className="font-medium">Sponsor:</span>
+                                              <span>Hon. Mary Njoroge</span>
+                                          </div>
+                                          <div className="flex items-center justify-between">
+                                              <span className="font-medium">Last Action:</span>
+                                              <span>Under Committee Review</span>
+                                          </div>
+                                      </div>
+                                  </CardContent>
+                              </Card>
+                          </AccordionContent>
+                      </AccordionItem>
+
+                      <AccordionItem value="education-bill">
+                          <AccordionTrigger className="text-xl font-medium">The Education Reform Bill</AccordionTrigger>
+                          <AccordionContent>
+                              <Card>
+                                  <CardHeader>
+                                      <CardTitle>The Education Reform Bill</CardTitle>
+                                      <CardDescription>
+                                          This bill proposes reforms in the education sector to improve quality and accessibility at all levels of learning.
+                                      </CardDescription>
+                                  </CardHeader>
+                                  <CardContent>
+                                      <div className="grid gap-2">
+                                          <div className="flex items-center justify-between">
+                                              <span className="font-medium">Status:</span>
+                                              <Badge variant="secondary">Pending</Badge>
+                                          </div>
+                                          <div className="flex items-center justify-between">
+                                              <span className="font-medium">Sponsor:</span>
+                                              <span>Hon. Peter Otieno</span>
+                                          </div>
+                                          <div className="flex items-center justify-between">
+                                              <span className="font-medium">Last Action:</span>
+                                              <span>First Reading</span>
+                                          </div>
+                                      </div>
+                                  </CardContent>
+                              </Card>
+                          </AccordionContent>
+                      </AccordionItem>
+
+                      <AccordionContent>
                       <div className="grid gap-4">
                         <Card>
                           <CardHeader>
@@ -109,7 +169,67 @@ export default function Education() {
                   </AccordionItem>
                   <AccordionItem value="committees">
                     <AccordionTrigger className="text-xl font-medium">Committees</AccordionTrigger>
-                    <AccordionContent>
+                      <AccordionItem value="finance-committee">
+                          <AccordionTrigger className="text-xl font-medium">Finance Committee</AccordionTrigger>
+                          <AccordionContent>
+                              <Card>
+                                  <CardHeader>
+                                      <CardTitle>Finance Committee</CardTitle>
+                                      <CardDescription>
+                                          This committee is responsible for reviewing financial legislation and overseeing government expenditures.
+                                      </CardDescription>
+                                  </CardHeader>
+                                  <CardContent>
+                                      <div className="grid gap-2">
+                                          <div className="flex items-center justify-between">
+                                              <span className="font-medium">Chair:</span>
+                                              <span>Hon. Alice Mwangi</span>
+                                          </div>
+                                          <div className="flex items-center justify-between">
+                                              <span className="font-medium">Members:</span>
+                                              <span>15 members</span>
+                                          </div>
+                                          <div className="flex items-center justify-between">
+                                              <span className="font-medium">Last Meeting:</span>
+                                              <span>1 week ago</span>
+                                          </div>
+                                      </div>
+                                  </CardContent>
+                              </Card>
+                          </AccordionContent>
+                      </AccordionItem>
+
+                      <AccordionItem value="education-committee">
+                          <AccordionTrigger className="text-xl font-medium">Education Committee</AccordionTrigger>
+                          <AccordionContent>
+                              <Card>
+                                  <CardHeader>
+                                      <CardTitle>Education Committee</CardTitle>
+                                      <CardDescription>
+                                          This committee is tasked with reviewing and recommending policies related to the education sector.
+                                      </CardDescription>
+                                  </CardHeader>
+                                  <CardContent>
+                                      <div className="grid gap-2">
+                                          <div className="flex items-center justify-between">
+                                              <span className="font-medium">Chair:</span>
+                                              <span>Hon. David Karanja</span>
+                                          </div>
+                                          <div className="flex items-center justify-between">
+                                              <span className="font-medium">Members:</span>
+                                              <span>20 members</span>
+                                          </div>
+                                          <div className="flex items-center justify-between">
+                                              <span className="font-medium">Last Meeting:</span>
+                                              <span>3 weeks ago</span>
+                                          </div>
+                                      </div>
+                                  </CardContent>
+                              </Card>
+                          </AccordionContent>
+                      </AccordionItem>
+
+                      <AccordionContent>
                       <div className="grid gap-4">
                         <Card>
                           <CardHeader>
@@ -273,6 +393,78 @@ export default function Education() {
                       </Card>
                     </AccordionContent>
                   </AccordionItem>
+                    <AccordionItem value="module3">
+                        <AccordionTrigger className="text-xl font-medium">Roles and Functions of Government</AccordionTrigger>
+                        <AccordionContent>
+                            <Card>
+                                <CardHeader>
+                                    <CardTitle>Roles and Functions of Government</CardTitle>
+                                    <CardDescription>
+                                        This module explains the different roles and functions of the national and county governments in Kenya.
+                                    </CardDescription>
+                                </CardHeader>
+                                <CardContent>
+                                    <div className="grid gap-4">
+                                        <div>
+                                            <h3 className="text-lg font-medium">National Government</h3>
+                                            <p className="text-sm text-muted-foreground">
+                                                Learn about the roles and responsibilities of the national government, including policy formulation and national security.
+                                            </p>
+                                            <Button variant="outline" size="sm" className="mt-2">
+                                                Start Module
+                                            </Button>
+                                        </div>
+                                        <div>
+                                            <h3 className="text-lg font-medium">County Government</h3>
+                                            <p className="text-sm text-muted-foreground">
+                                                Explore the functions of county governments, focusing on devolved services and local governance.
+                                            </p>
+                                            <Button variant="outline" size="sm" className="mt-2">
+                                                Start Module
+                                            </Button>
+                                        </div>
+                                    </div>
+                                </CardContent>
+                            </Card>
+                        </AccordionContent>
+                    </AccordionItem>
+
+                    <AccordionItem value="module4">
+                        <AccordionTrigger className="text-xl font-medium">Judiciary and Legal System</AccordionTrigger>
+                        <AccordionContent>
+                            <Card>
+                                <CardHeader>
+                                    <CardTitle>Judiciary and Legal System</CardTitle>
+                                    <CardDescription>
+                                        This module provides an overview of the judiciary and legal system in Kenya, including the structure and function of courts.
+                                    </CardDescription>
+                                </CardHeader>
+                                <CardContent>
+                                    <div className="grid gap-4">
+                                        <div>
+                                            <h3 className="text-lg font-medium">Court Structure</h3>
+                                            <p className="text-sm text-muted-foreground">
+                                                Understand the different levels of courts in Kenya, from the Supreme Court to Magistrate Courts.
+                                            </p>
+                                            <Button variant="outline" size="sm" className="mt-2">
+                                                Start Module
+                                            </Button>
+                                        </div>
+                                        <div>
+                                            <h3 className="text-lg font-medium">Legal Processes</h3>
+                                            <p className="text-sm text-muted-foreground">
+                                                Learn about the legal processes, including how cases are filed, tried, and adjudicated.
+                                            </p>
+                                            <Button variant="outline" size="sm" className="mt-2">
+                                                Start Module
+                                            </Button>
+                                        </div>
+                                    </div>
+                                </CardContent>
+                            </Card>
+                        </AccordionContent>
+                    </AccordionItem>
+
                 </Accordion>
               </div>
             </main>

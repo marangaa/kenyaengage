@@ -95,7 +95,7 @@ export function SignIn() {
                             className="font-medium text-primary hover:text-primary-foreground animate-bounce"
                             prefetch={false}
                         >
-                            Don't have an account? Sign up 🎉
+                            Don&apos;t have an account? Sign up 🎉
                         </Link>
                     </div>
                 </div>

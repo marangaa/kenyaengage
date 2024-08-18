@@ -27,6 +27,7 @@ import { Label } from "@/components/ui/label"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Checkbox } from "@/components/ui/checkbox"
+import Image from "next/image"
 
 export function Engage() {
   return (
@@ -92,7 +93,7 @@ export function Engage() {
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <Button variant="outline" size="icon" className="overflow-hidden rounded-full">
-                <img
+                <Image
                   src="/placeholder.svg"
                   width={36}
                   height={36}
