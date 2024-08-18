@@ -54,6 +54,11 @@ export function Landing() {
             prefetch={false}>
             Analysis
           </Link>
+          <Link href="/discussion"
+            className="text-sm font-medium hover:underline underline-offset-4"
+            prefetch={false}>
+            Discussion
+            </Link>
           <Link href="/login" prefetch={false}>
           <Button
             variant="outline"
