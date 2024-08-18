@@ -54,17 +54,21 @@ export function Landing() {
             prefetch={false}>
             Analysis
           </Link>
+          <Link href="/login" prefetch={false}>
           <Button
             variant="outline"
             className="flex items-center gap-2 px-4 py-2 rounded-md hover:bg-primary hover:text-primary-foreground transition-colors">
             <UserIcon className="h-4 w-4" />
             <span>Sign In</span>
           </Button>
+            </Link>
+          <Link href="/signup" prefetch={false}>
           <Button
             className="flex items-center gap-2 px-4 py-2 rounded-md bg-primary text-primary-foreground hover:bg-primary/90 transition-colors">
             <UserPlusIcon className="h-4 w-4" />
             <span>Sign Up</span>
           </Button>
+            </Link>
         </nav>
       </header>
       <main className="flex-1">

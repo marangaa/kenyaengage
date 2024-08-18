@@ -12,7 +12,7 @@ import { Progress } from "@/components/ui/progress"
 import { Table, TableHeader, TableRow, TableHead, TableBody, TableCell } from "@/components/ui/table"
 import { Badge } from "@/components/ui/badge"
 
-export default function ParticipateHomepage() {
+export default function CitizenDashboard() {
   return (
       <div className="flex flex-col min-h-screen">
         <Tabs defaultValue="home">

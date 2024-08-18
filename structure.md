@@ -3,7 +3,7 @@ KenyaEngage Platform Architecture
 1. Frontend (Next.js with App Router):
    /src
    /app
-   /layout.js               # Root layout
+   /layout.tsx               # Root layout
    /page.js                 # Home page
    /(auth)                  # Authentication routes
    /login/page.js

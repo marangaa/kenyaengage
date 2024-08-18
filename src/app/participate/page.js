@@ -1,5 +1,5 @@
-import ParticipateHomepage from '@/components/component/participate-homepage';
+import CitizenDashboard from '@/components/component/citizen-dashboard';
 
 export default function EventsPage() {
-    return <ParticipateHomepage />;
+    return <CitizenDashboard />;
 }
