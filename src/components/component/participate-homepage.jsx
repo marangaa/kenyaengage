@@ -184,7 +184,7 @@ export default function ParticipateHomepage() {
                       <Card x-chunk="dashboard-06-chunk-4">
                         <CardHeader className="px-7">
                           <CardTitle>Public Meetings</CardTitle>
-                          <CardDescription>Upcoming and past public meetings you've attended.</CardDescription>
+                          <CardDescription>Upcoming and past public meetings attended.</CardDescription>
                         </CardHeader>
                         <CardContent>
                           <Table>
@@ -257,7 +257,7 @@ export default function ParticipateHomepage() {
                       <Card x-chunk="dashboard-06-chunk-5">
                         <CardHeader className="px-7">
                           <CardTitle>Surveys</CardTitle>
-                          <CardDescription>Surveys you've participated in and their status.</CardDescription>
+                          <CardDescription>Surveys participated in and their status.</CardDescription>
                         </CardHeader>
                         <CardContent>
                           <Table>

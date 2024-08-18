@@ -27,6 +27,7 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter }
 import { Table, TableHeader, TableRow, TableHead, TableBody, TableCell } from "@/components/ui/table"
 import { Badge } from "@/components/ui/badge"
 import { Pagination, PaginationContent, PaginationItem } from "@/components/ui/pagination"
+import Image from "next/image"
 
 export function Transparency() {
   return (
@@ -58,7 +59,7 @@ export function Transparency() {
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
             <Button variant="outline" size="icon" className="overflow-hidden rounded-full">
-              <img
+              <Image
                 src="/placeholder.svg"
                 width={36}
                 height={36}
@@ -226,12 +227,12 @@ export function Transparency() {
                       <div className="prose text-muted-foreground">
                         <p>
                           The proposal for a new park in the city center was approved after careful consideration of
-                          public feedback. The government acknowledged the community's need for more green spaces and
+                          public feedback. The government acknowledged the community&rsquo;s need for more green spaces and
                           the potential benefits the park would bring. Key factors that influenced the decision include:
                         </p>
                         <ul>
                           <li>Strong support from local residents and community groups 👥</li>
-                          <li>Alignment with the city's long-term sustainability goals 🌳</li>
+                          <li>Alignment with the city&rsquo;s long-term sustainability goals 🌳</li>
                           <li>Feasibility of the proposed location and design 🏗️</li>
                         </ul>
                         <p>
@@ -255,7 +256,7 @@ export function Transparency() {
                       <div className="text-sm text-muted-foreground">Submitted: 2023-03-28 | Decided: 2023-04-20</div>
                       <div className="prose text-muted-foreground">
                         <p>
-                          The government has reviewed the public feedback on the proposed changes to the city's zoning
+                          The government has reviewed the public feedback on the proposed changes to the city&rsquo;s zoning
                           laws. While there was overall support for the goals of the new laws, several concerns were
                           raised regarding the impact on small businesses and affordable housing. After careful
                           consideration, the government has decided to:
@@ -284,13 +285,13 @@ export function Transparency() {
                         <p>
                           The government has carefully reviewed the proposal for a new community center and has decided
                           not to move forward with the project at this time. While the government recognizes the
-                          community's need for additional public spaces, the proposed location and design were not
+                          community&rsquo;s need for additional public spaces, the proposed location and design were not
                           deemed feasible due to the following factors:
                         </p>
                         <ul>
                           <li>Concerns about the impact on nearby residential areas 🏘️</li>
                           <li>Budgetary constraints and competing priorities for public funding 💰</li>
-                          <li>Lack of alignment with the city's long-term development plans 🗺️</li>
+                          <li>Lack of alignment with the city&rsquo;s long-term development plans 🗺️</li>
                         </ul>
                         <p>
                           The government encourages the submission team to consider alternative locations or designs and
@@ -324,7 +325,7 @@ export function Transparency() {
                       <div className="text-sm text-muted-foreground">Voting open until 2023-06-15</div>
                       <div className="grid gap-4 md:grid-cols-2">
                         <div className="grid gap-2 border rounded-lg p-4">
-                          <img
+                          <Image
                             src="/placeholder.svg"
                             alt="Park Design 1"
                             width={300}
@@ -339,7 +340,7 @@ export function Transparency() {
                           </div>
                         </div>
                         <div className="grid gap-2 border rounded-lg p-4">
-                          <img
+                          <Image
                             src="/placeholder.svg"
                             alt="Park Design 2"
                             width={300}

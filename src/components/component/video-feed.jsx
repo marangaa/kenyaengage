@@ -25,6 +25,7 @@ To read more about using these font, please visit the Next.js documentation:
 **/
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
+import Image from "next/image"
 
 export function VideoFeed() {
   return (
@@ -52,7 +53,7 @@ export function VideoFeed() {
             <span className="sr-only">Upload</span>
           </Button>
           <Button variant="ghost" size="icon" className="rounded-full">
-            <img
+            <Image
               src="/placeholder.svg"
               width={32}
               height={32}
@@ -67,7 +68,7 @@ export function VideoFeed() {
         <div
           className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 p-4">
           <div className="relative group rounded-lg overflow-hidden">
-            <img
+            <Image
               src="/placeholder.svg"
               width={320}
               height={480}
@@ -88,7 +89,7 @@ export function VideoFeed() {
             </div>
           </div>
           <div className="relative group rounded-lg overflow-hidden">
-            <img
+            <Image
               src="/placeholder.svg"
               width={320}
               height={480}
@@ -109,7 +110,7 @@ export function VideoFeed() {
             </div>
           </div>
           <div className="relative group rounded-lg overflow-hidden">
-            <img
+            <Image
               src="/placeholder.svg"
               width={320}
               height={480}
@@ -130,7 +131,7 @@ export function VideoFeed() {
             </div>
           </div>
           <div className="relative group rounded-lg overflow-hidden">
-            <img
+            <Image
               src="/placeholder.svg"
               width={320}
               height={480}
@@ -151,7 +152,7 @@ export function VideoFeed() {
             </div>
           </div>
           <div className="relative group rounded-lg overflow-hidden">
-            <img
+            <Image
               src="/placeholder.svg"
               width={320}
               height={480}
@@ -172,7 +173,7 @@ export function VideoFeed() {
             </div>
           </div>
           <div className="relative group rounded-lg overflow-hidden">
-            <img
+            <Image
               src="/placeholder.svg"
               width={320}
               height={480}
@@ -193,7 +194,7 @@ export function VideoFeed() {
             </div>
           </div>
           <div className="relative group rounded-lg overflow-hidden">
-            <img
+            <Image
               src="/placeholder.svg"
               width={320}
               height={480}
@@ -214,7 +215,7 @@ export function VideoFeed() {
             </div>
           </div>
           <div className="relative group rounded-lg overflow-hidden">
-            <img
+            <Image
               src="/placeholder.svg"
               width={320}
               height={480}
