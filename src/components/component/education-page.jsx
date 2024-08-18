@@ -11,6 +11,7 @@ import { Button } from "@/components/ui/button"
 import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@/components/ui/accordion"
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
+import Image from "next/image"
 
 export default function Education() {
   const [activeTab, setActiveTab] = useState("overview")
@@ -283,7 +284,7 @@ export default function Education() {
                   <div className="absolute inset-0 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
                     <div className="relative flex flex-col items-start gap-2 rounded-lg bg-background p-4 shadow-sm transition-all hover:scale-105">
                       <div className="relative aspect-video w-full overflow-hidden rounded-lg">
-                        <img src="/placeholder.svg" alt="Video Thumbnail" fill className="object-cover" />
+                        <Image src="/placeholder.svg" alt="Video Thumbnail" layout="fill" objectFit="cover" />
                         <div className="absolute inset-0 flex items-center justify-center">
                           <PlayIcon className="h-10 w-10 text-primary" />
                         </div>
@@ -313,7 +314,7 @@ export default function Education() {
                     </div>
                     <div className="relative flex flex-col items-start gap-2 rounded-lg bg-background p-4 shadow-sm transition-all hover:scale-105">
                       <div className="relative aspect-video w-full overflow-hidden rounded-lg">
-                        <img src="/placeholder.svg" alt="Video Thumbnail" fill className="object-cover" />
+                        <Image src="/placeholder.svg" alt="Video Thumbnail" layout="fill" objectFit="cover" />
                         <div className="absolute inset-0 flex items-center justify-center">
                           <PlayIcon className="h-10 w-10 text-primary" />
                         </div>

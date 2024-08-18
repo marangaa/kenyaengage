@@ -88,7 +88,7 @@ export function InformationResources() {
                     <div className="grid gap-1">
                       <div className="font-medium">Upcoming Community Meeting 🤝</div>
                       <div className="text-muted-foreground">
-                        Join us on August 20th at the community center to discuss the city's transportation plan. 🚌
+                        Join us on August 20th at the community center to discuss the city&rsquo;s transportation plan. 🚌
                       </div>
                     </div>
                   </div>
@@ -151,7 +151,7 @@ export function InformationResources() {
                       <BookIcon className="h-5 w-5 text-primary-foreground" />
                     </div>
                     <div className="grid gap-1">
-                      <div className="font-medium">Citizen's Guide to Public Participation 🗳️</div>
+                      <div className="font-medium">Citizen&rsquo;s Guide to Public Participation 🗳️</div>
                       <div className="text-muted-foreground">
                         Learn about your rights and the process for providing input on local government decisions. 💬
                       </div>
@@ -168,7 +168,7 @@ export function InformationResources() {
                     <div className="grid gap-1">
                       <div className="font-medium">Understanding the Budget Process 💰</div>
                       <div className="text-muted-foreground">
-                        Explore how the city's budget is developed and how you can provide feedback. 📊
+                        Explore how the city&rsquo;s budget is developed and how you can provide feedback. 📊
                       </div>
                       <Button variant="link" size="sm">
                         Watch Video 🎥

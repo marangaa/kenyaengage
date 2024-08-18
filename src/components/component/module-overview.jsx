@@ -19,6 +19,7 @@ To read more about using these font, please visit the Next.js documentation:
 **/
 import { Button } from "@/components/ui/button"
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card"
+import Image from "next/image"
 
 export function ModuleOverview() {
   return (
@@ -77,28 +78,28 @@ export function ModuleOverview() {
               <h2 className="text-2xl font-semibold">Introduction to React</h2>
               <div className="mt-4 space-y-4">
                 <p>
-                  In this section, you'll learn the fundamentals of React, including its history, key features, and why
-                  it has become a popular choice for building user interfaces. We'll cover the basic concepts of
+                  In this section, learn the fundamentals of React, including its history, key features, and why
+                  it has become a popular choice for building user interfaces. covering the basic concepts of
                   components, JSX, and the virtual DOM, setting the stage for the rest of the module.
                 </p>
                 <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
                   <div>
-                    <img
+                    <Image
                       src="/placeholder.svg"
                       alt="React logo"
                       className="rounded-lg object-cover"
-                      width="300"
-                      height="200"
+                      width={300}
+                      height={200}
                       style={{ aspectRatio: "300/200", objectFit: "cover" }} />
                     <div className="mt-2 text-center text-sm text-muted-foreground">React logo</div>
                   </div>
                   <div>
-                    <img
+                    <Image
                       src="/placeholder.svg"
                       alt="React development"
                       className="rounded-lg object-cover"
-                      width="300"
-                      height="200"
+                      width={300}
+                      height={200}
                       style={{ aspectRatio: "300/200", objectFit: "cover" }} />
                     <div className="mt-2 text-center text-sm text-muted-foreground">React development</div>
                   </div>
@@ -109,12 +110,12 @@ export function ModuleOverview() {
               <h2 className="text-2xl font-semibold">JSX and Components</h2>
               <div className="mt-4 space-y-4">
                 <p>
-                  In this section, you'll dive into the core building blocks of React: JSX and components. You'll learn
+                  In this section, dive into the core building blocks of React: JSX and components. learn
                   how to create and compose reusable components, manage their state, and handle user interactions.
                 </p>
                 <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
                   <div>
-                    <img
+                    <image
                       src="/placeholder.svg"
                       alt="JSX example"
                       className="rounded-lg object-cover"
@@ -124,7 +125,7 @@ export function ModuleOverview() {
                     <div className="mt-2 text-center text-sm text-muted-foreground">JSX example</div>
                   </div>
                   <div>
-                    <img
+                    <imgage
                       src="/placeholder.svg"
                       alt="React components"
                       className="rounded-lg object-cover"
@@ -140,13 +141,13 @@ export function ModuleOverview() {
               <h2 className="text-2xl font-semibold">State and Lifecycle</h2>
               <div className="mt-4 space-y-4">
                 <p>
-                  In this section, you'll learn how to manage the state of your React components and understand the
-                  component lifecycle. You'll explore techniques for updating the UI in response to user actions and
+                  In this section, learn how to manage the state of your React components and understand the
+                  component lifecycle.  explore techniques for updating the UI in response to user actions and
                   data changes.
                 </p>
                 <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
                   <div>
-                    <img
+                    <image
                       src="/placeholder.svg"
                       alt="React state management"
                       className="rounded-lg object-cover"
@@ -156,7 +157,7 @@ export function ModuleOverview() {
                     <div className="mt-2 text-center text-sm text-muted-foreground">React state management</div>
                   </div>
                   <div>
-                    <img
+                    <imgage
                       src="/placeholder.svg"
                       alt="React lifecycle methods"
                       className="rounded-lg object-cover"
